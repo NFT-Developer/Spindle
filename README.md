@@ -1,10 +1,11 @@
-#Spindle
+# Spindle
 ===
 
 > Spindle is an NFT marketplace that doubles up as a publishing platform which lets writers mint their NFTs and allow their readers to indulge in alternate plotlines or treasure a visual memoir.
 
+
 <p align="center">
-  <img width="600" height="450" src="./packages/react-app/src/assets/spindle.png/600/450">
+  <img width="800" height="450" src="Spindle/packages/react-app/src/assets/spindle.png/600/450">
 </p>
 
 ### Advantages of NFTs for writer:
@@ -18,7 +19,7 @@ An author could also create copies with a limited number of digitally signed cop
 ##### Bonuses
 Making the owner special and providing him with special and alternative storylines when he buys the book.
 
-===
+
 
 ## Running the app
 
