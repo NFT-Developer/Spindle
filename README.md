@@ -1,67 +1,44 @@
-# 🏗 Scaffold-ETH
+#Spindle
+===
 
-> everything you need to build on Ethereum! 🚀
+> Spindle is an NFT marketplace that doubles up as a publishing platform which lets writers mint their NFTs and allow their readers to indulge in alternate plotlines or treasure a visual memoir.
 
-🧪 Quickly experiment with Solidity using a frontend that adapts to your smart contract:
+<p align="center">
+  <img width="600" height="450" src="./packages/react-app/src/assets/spindle.png/600/450">
+</p>
 
-![image](https://user-images.githubusercontent.com/2653167/124158108-c14ca380-da56-11eb-967e-69cde37ca8eb.png)
+### Advantages of NFTs for writer:
 
-🎛 Any web3 dev environment is complex, that's why 🏗 Scaffold-ETH comes with everything you need, already working together:
+##### Special and Limited Editions
+Writer can create special or limited editions of the books.
 
-- Hardhat for your local blockchain, deploying, and testing smart contracts.
-- React for building a frontend, using many useful pre-made components and hooks.
-- Ant for your UI. (You can easily changed to another library you prefer)
-- Surge / S3 / IPFS for publishing your app.
-- Tenderly / The Graph / Etherscan / Infura / Blocknative for infrastructure.
-- Support for L2 / Sidechains like Optimism and Arbitrum.
+##### Signed Copies
+An author could also create copies with a limited number of digitally signed copies of a work.
 
-# 🏄‍♂️ Quick Start
+##### Bonuses
+Making the owner special and providing him with special and alternative storylines when he buys the book.
 
-Prerequisites: [Node](https://nodejs.org/dist/latest-v12.x/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
+===
 
-> clone/fork 🏗 scaffold-eth:
+## Running the app
 
-```bash
-git clone https://github.com/austintgriffith/scaffold-eth.git
-```
+Follow these steps to run Spindle !!
 
-> install and start your 👷‍ Hardhat chain: 
-
-```bash
-cd scaffold-eth
-yarn install
-yarn chain
-```
-
-> in a second terminal window, start your 📱 frontend:
-
-```bash
-cd scaffold-eth
-yarn start
-```
-
-> in a third terminal window, 🛰 deploy your contract:
-
-```bash
-cd scaffold-eth
-yarn deploy
-```
-
-You should now have a local blockchain, with `YourContract.sol` deployed, and your app running on https://localhost:3000.
-
-# 📚 Documentation
-
-For a more in-depth explanation, documentation, tutorials, challenges, and many more resources, visit: [docs.scaffoldeth.io](https://docs.scaffoldeth.io) 
-
-# 🛠 Buidl
-
-Check out all the [active branches](https://github.com/austintgriffith/scaffold-eth/branches/active), [open issues](https://github.com/austintgriffith/scaffold-eth/issues), and join/fund the 🏰 [BuidlGuidl](https://BuidlGuidl.com)!
+1. Clone this repo
+2. Run `yarn install`
+3. Run `yarn chain`
+4. Run `yarn start` and then finally `yarn deploy`
+5. Ta da !!
 
 
-# 💬 Support Chat
+### Tech Stack
 
-Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA) to ask questions and find others building with 🏗 scaffold-eth!
 
----
-
-🙏 Please check out our [Gitcoin grant](https://gitcoin.co/grants/2851/scaffold-eth) too!
+1. React for frontend 
+2. Filecoin for storage and to avoid censorship
+3. Chainlink oracle to make API requests 
+4. Superfluid to stream the money paid by the buyers to the creator
+5. Polygon (Matic) for less gas costs and easy deployment
+6. Portis for smooth user experience for buyers who are not equipped with blockchain extensions
+7. The Graph for indexing the CIDs
+8. Dynamic Access Control by NuCypher for ensuring only the buyers have access to the complete article / book
